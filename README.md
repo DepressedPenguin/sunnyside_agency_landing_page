@@ -37,7 +37,7 @@
 </ol>
 
 <h2>Demo</h2>
-<p>You can view a live demo of the landing page <a href="https://your-live-demo-url.com">here</a>.</p>
+<p>You can view a live demo of the landing page <a href="https://sunnyside-age.netlify.app/">here</a>.</p>
 
 </body>
 </html>
