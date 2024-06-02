@@ -1,0 +1,66 @@
+// .SCSS FILE FOR FOOTER
+.main_footer {
+  //   border: 1px solid red;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 60px 60px 100px;
+  background-color: rgb(144 212 197);
+  gap: 10px;
+  padding: 10px;
+}
+
+.footer_box_headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_class_footer {
+  color: white;
+  box-shadow: 3px 3px 3px white;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+// MAIN UL DIV
+.footer_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// UL FOOTER
+.ul_footer {
+  //   border: 1px solid red;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+
+  li {
+    font-weight: 300;
+    font-size: 18px;
+  }
+}
+
+.social_media_ul {
+  width: 20%;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ul_footer {
+    // border: 1px solid red;
+    width: 100%;
+  }
+
+  .social_media_ul {
+    width: 50%;
+  }
+}

@@ -1,0 +1,13 @@
+// .SCSS FILE FOR WALPAPERS COMPONENET
+.wallpapers_card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sub_wallpaper {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
